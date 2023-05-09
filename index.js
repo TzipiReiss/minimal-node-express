@@ -11,7 +11,7 @@ const port = 3000
 app.get("/", (req, res) => {
     sdk.auth('rnd_DSG850Fp9dgj5axph7x72Qi7Jjdm');
     sdk.getServices({limit: '20'})
-      .then(({ data }) => res.send(data))
+      .then(({ data }) => console.log(data))
       .catch(err => console.error(err));
 })
 
