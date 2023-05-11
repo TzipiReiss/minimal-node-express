@@ -14,12 +14,10 @@
     "cors": "^2.8.5",
     "express": "^4.18.2"
   },
-<<<<<<< HEAD
   "devDependencies": {
     "json-schema-to-ts": "^2.8.2"
-=======
-    "engines": {
+  },
+  "engines": {
     "node": ">=14 <15"
->>>>>>> 405ff260d6c0886b8c2ecf8cfc036f8cf19849b9
   }
 }
