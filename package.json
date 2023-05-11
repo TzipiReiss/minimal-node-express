@@ -15,10 +15,9 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "json-schema-to-ts": "^2.8.2"
-  },
-  "engines": {
+    "json-schema-to-ts": "^2.8.2",
+    "engines": {
     "node": ">=14 <15"
+    }
   }
-
 }
