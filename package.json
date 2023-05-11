@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "json-schema-to-ts": "^2.8.2"
+  },
+  "engines": {
+    "node": ">=14 <15"
   }
+
 }
