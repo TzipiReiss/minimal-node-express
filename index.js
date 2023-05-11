@@ -8,9 +8,11 @@ const PORT = process.env.PORT || 8081;
 // app.use(cors());
 // app.use(bodyParser.json());
 
- app.get("/", (req, res) => {
+  app.get("/",async (req, res) => {
     sdk.auth('rnd_DSG850Fp9dgj5axph7x72Qi7Jjdm');
-   
+    sdk.getServices({limit: '20'})
+      .then(({ data }) =>  res.json(data))
+      .catch(err => console.error(err));
  })
 
  app.listen(PORT, () => {
