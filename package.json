@@ -16,5 +16,5 @@
   },
   "devDependencies": {
     "json-schema-to-ts": "^2.8.2"
-   
+  }
 }
